@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+h1 {
+  color: darkred;
+}
+#screen {
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.buttons {
+  font-size: 25px;
+  height: 60px;
+  margin: 1px;
+  width: 60px;
+  background-color: #435560;
+  color: white;
+  border-radius: 7px;
+}
+.container {
+  width: 30%;
+  border: solid;
+  border-radius: 9px;
+  text-align: center;
+  margin-top: 85px;
+  margin-left: 34%;
+  background-color: wheat;
+}
+table {
+  margin: auto;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scientific calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+    <form name="forms" class="res">
+   <input type="text" name="screen" id="screen">
+   <table>
+    <tr>
+           <td>
+               <input class="buttons" type="button" value="sin" onclick="sin()">
+           </td>
+           <td>
+            <input class="buttons" type="button" value="cos" onclick="cos()">
+        </td>
+        <td>
+            <input class="buttons" type="button" value="tan" onclick="tan()">
+        </td>
+        <td>
+            <input class="buttons" type="button" value="(" onclick="evaluates('(')">
+        </td>
+        <td>
+            <input class="buttons" type="button" value=")" onclick="evaluates(')')">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input class="buttons" type="button" value="7" onclick="evaluates('7')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="8" onclick="evaluates('8')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="9" onclick="evaluates('9')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="DEL" onclick="del()">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="AC" onclick="ac()">
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <input class="buttons" type="button" value="4" onclick="evaluates('4')">
+    </td>
+    <td>
+     <input class="buttons" type="button" value="5" onclick="evaluates('5')">
+    </td>
+    <td>
+     <input class="buttons" type="button" value="6" onclick="evaluates('6')">
+    </td>
+    <td>
+     <input class="buttons" type="button" value="*" onclick="evaluates('*')">
+    </td>
+    <td>
+     <input class="buttons" type="button" value="/" onclick="evaluates('/')">
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <input class="buttons" type="button" value="1" onclick="evaluates('1')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="2" onclick="evaluates('2')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="3" onclick="evaluates('3')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="+" onclick="evaluates('+')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="-" onclick="evaluates('-')">
+        </td> 
+    </tr>
+       <tr>
+        <td>
+            <input class="buttons" type="button" value="0" onclick="evaluates('0')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="00" onclick="evaluates('00')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="." onclick="evaluates('.')">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="PI" onclick="pi()">
+        </td>
+        <td>
+         <input class="buttons" type="button" value="=" onclick="equal()">
+        </td>
+       </tr>
+   </table>
+</form> 
+    </div>
+   
+   <script src="index.js"></script>
+</body>
+</html>
